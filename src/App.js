@@ -1,6 +1,5 @@
-import { useState, useEffect } from "react";
-import { ReactDOM } from "react";
-import {Routes,Route,BrowserRouter} from 'react-router-dom'
+
+import {Routes,Route} from 'react-router-dom'
 import "./App.css";
 import CropPdf from "./Components/CropPdf";
 import Header from "./Components/Header";

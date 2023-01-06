@@ -52,9 +52,9 @@ const PdfMerger = () => {
     const data=[...uploadedFiles]
     let index;
     
-    if(name!=data[0].name){
+    if(name!==data[0].name){
       for(let i=0;i<data.length;i++){
-        if(data[i].name==name){
+        if(data[i].name===name){
           index=i;
           break;
         }
@@ -70,9 +70,9 @@ const PdfMerger = () => {
     const data=[...uploadedFiles]
     let index;
     
-    if(name!=data[data.length-1].name){
+    if(name!==data[data.length-1].name){
       for(let i=0;i<data.length;i++){
-        if(data[i].name==name){
+        if(data[i].name===name){
           index=i;
           break;
         }
