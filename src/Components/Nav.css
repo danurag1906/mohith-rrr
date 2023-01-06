@@ -39,3 +39,9 @@
 .Nav li:focus a {
     cursor: pointer;
 }
+
+@media only screen and (max-width:500px){
+    .Nav li{
+        padding: 1rem 0rem 1rem 0rem;
+    }
+}
