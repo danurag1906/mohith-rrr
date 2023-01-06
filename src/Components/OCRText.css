@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+  }
+   
+.App-image {
+    width: 60vmin;
+    pointer-events: none;
+}
+.heading{
+    padding: 1rem;
+    background-color: rgb(249, 224, 194);
+}
+   
+  .App-main {
+    margin-top: 1rem;
+    background-color: rgb(247, 239, 229);
+    /* min-height: 100vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1rem;
+    color: black;
+  }
+  .image-div{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 40rem;
+  }
+   
+  .text-box {
+    background-color: rgb(247, 239, 229);
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  
