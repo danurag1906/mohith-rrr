@@ -19,6 +19,10 @@
   .header{
     background-color: rgb(249, 224, 194);
   }
+  #fileUpload{
+    padding: 1rem;
+    color: black;
+  }
   
   .eachFile{
     padding: 0.5rem;

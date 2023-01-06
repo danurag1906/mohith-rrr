@@ -92,19 +92,16 @@ const PdfMerger = () => {
         <p><FaArrowCircleRight/> To change the order of PDF files use arrow buttons.</p>
         <p><FaArrowCircleRight/> Refresh to clear data.</p>
       </div>
+      
+      <div className="buttons">
       <input
-        style={{ display: "none" }}
+        
         id="fileUpload"
         type="file"
         accept="application/pdf"
         multiple
         onChange={handleFileEvent}
       />
-      <div className="buttons">
-        <label htmlFor="fileUpload">
-          <a className="btn btn-danger my-2"> Upload Files </a>
-        </label>
-
         <a className="btn btn-warning my-2 mx-2"  href={`${mergedPdfUrl}`} download >Merge Files</a>
       </div>
       
