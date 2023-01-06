@@ -89,8 +89,8 @@ const PdfMerger = () => {
       <h4 className="mb-4 p-2" >PDF-Merger</h4>
       </div>
       <div className="instructions">
-        <p><FaArrowCircleRight/> Add the PDF files in the order to be merged</p>
-        <p><FaArrowCircleRight/> Refresh to clear data</p>
+        <p><FaArrowCircleRight/> To change the order of PDF files use arrow buttons.</p>
+        <p><FaArrowCircleRight/> Refresh to clear data.</p>
       </div>
       <input
         style={{ display: "none" }}

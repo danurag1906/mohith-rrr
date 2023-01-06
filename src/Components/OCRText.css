@@ -40,4 +40,23 @@
     padding: 1rem;
   }
   
+  @media only screen and (max-width:500px){
+    .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-div{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: fit-content;
+    }
+    .App-main{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+  }
   

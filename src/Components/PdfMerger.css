@@ -27,5 +27,11 @@
     font: bold;
     color: black;
   }
-  
+
+  @media only screen and (max-width:500px){
+    .buttons{
+        margin:auto;
+        max-width: fit-content;
+    }
+  }
   
