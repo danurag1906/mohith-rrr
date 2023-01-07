@@ -4,8 +4,8 @@ import {IoMdRocket} from 'react-icons/io'
 const CropPdf = () => {
   return (
     <div className='main'>
-        <h5>{<IoMdRocket/>}Coming Soon {<IoMdRocket/>}</h5>
-        <p>Till then continue your RRR.</p>
+        <h4>{<IoMdRocket/>}Coming Soon {<IoMdRocket/>}</h4>
+        <h5>Tab tak ke liye <b>राम राम</b> 	&#128681;</h5>
     </div>
   )
 }

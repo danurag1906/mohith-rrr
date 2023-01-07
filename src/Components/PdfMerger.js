@@ -5,6 +5,7 @@ import {MdPictureAsPdf} from'react-icons/md'
 import {BsFillArrowDownSquareFill,BsFillArrowUpSquareFill} from 'react-icons/bs'
 import {FaArrowCircleRight} from 'react-icons/fa'
 
+
 const PdfMerger = () => {
 
     const [uploadedFiles, setUploadedFiles] = useState([]);
@@ -45,7 +46,9 @@ const PdfMerger = () => {
     });
 
      setMergedPdfUrl();
+
   }, [uploadedFiles, setMergedPdfUrl]);
+
 
 
   const handleUp=(name)=>{
@@ -117,6 +120,8 @@ const PdfMerger = () => {
         </div>
         
       )}
+
+      
 
     </div>
   )
